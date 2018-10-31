@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+
+public class ArrayListString {
+
+	public static void main(String[] args) {
+		ArrayList<String> TugasArray = new ArrayList<String>();
+		
+		TugasArray.add("V"); TugasArray.add("E");
+		TugasArray.add("R"); TugasArray.add("A");
+		
+		TugasArray.remove(0);
+		TugasArray.remove(6);
+		
+		if(TugasArray.contains("R")){
+			System.out.println("Ada mungkin");
+		}
+				System.out.println("Banyak Huruf: "+TugasArray.size());
+			System.out.println(TugasArray);
+	}
+
+}
